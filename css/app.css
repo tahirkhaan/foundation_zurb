@@ -1,0 +1,79 @@
+/***************************************************
+Navigation
+****************************************************/
+.nav-desktop{
+	background-color: #222;
+	height: 80px;
+	padding: 0px;
+}
+.site-logo{
+	color: white;
+	line-height: 73px;
+}
+
+/***************************************************
+General
+****************************************************/
+.wrap{
+	width: 90%;
+	max-width: 1100px;
+	margin: 0px auto;
+}
+.nav-desktop .menu-desktop{
+	line-height: 80px;
+	background-color: transparent;
+}
+.menu li a {
+	display: inline-block;
+	line-height: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+}
+.menu li a:hover{
+	background-color: rgba(255,255,255,0.1);
+}
+
+/***************************************************
+MEDIA QUERIES
+****************************************************/
+@media(max-width: 640px){
+	.menu-desktop{
+		display: none;
+	}
+
+}
+
+
+
+
+/***************************************************
+Hero
+****************************************************/
+.hero{
+	background-color:#999;
+	padding: 50px 30px 30px 40px; 
+}
+.button.success{
+	background-color: purple;
+}
+
+/***************************************************
+Main Section
+****************************************************/
+.main{
+	padding: 40px 0px;
+
+}
+
+
+/***************************************************
+Footer
+****************************************************/
+footer{
+	padding: 40px 0px;
+	background-color: #222;
+}
+footer a{
+	display: block;
+}
