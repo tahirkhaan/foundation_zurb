@@ -54,6 +54,9 @@ Hero
 	background-color:#999;
 	padding: 50px 30px 30px 40px; 
 }
+.wrap h1{
+	color: white;
+}
 .button.success{
 	background-color: purple;
 }
